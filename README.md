@@ -45,6 +45,6 @@ import webbrowser
                 break
             except ConnectionError as e:
                 webbrowser.open(e.args[1])
-                input("Captcha Detected, please solve and press any key to continue...")
+                input("Captcha Detected, please solve and press Enter to continue...")
         case_info_list.append(case)
 ```
