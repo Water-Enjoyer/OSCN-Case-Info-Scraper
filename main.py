@@ -155,7 +155,7 @@ if __name__ == "__main__":
             except ConnectionError as e:
                 print(e)
                 webbrowser.open(e.args[1])
-                input("Captcha Detected, please solve and press any key to continue...")
+                input("Captcha Detected, please solve and press Enter to continue...")
         case_info_list.append(case)
 
     # write to csv file
